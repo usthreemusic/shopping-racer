@@ -1,1 +1,1 @@
-accel = 5;
+accel = 10;

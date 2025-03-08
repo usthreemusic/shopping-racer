@@ -17,7 +17,7 @@
   "physicsAngularDamping":3.0,
   "physicsDensity":1.0,
   "physicsFriction":0.2,
-  "physicsGroup":0,
+  "physicsGroup":1,
   "physicsKinematic":false,
   "physicsLinearDamping":0.8,
   "physicsObject":true,
@@ -34,7 +34,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"Spr_car",
     "path":"sprites/Spr_car/Spr_car.yy",
