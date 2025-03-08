@@ -34,7 +34,9 @@
   },
   "name":"Basic_Race_Mechanics",
   "resources":[
+    {"id":{"name":"fTimer","path":"fonts/fTimer/fTimer.yy",},},
     {"id":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Spr_car","path":"sprites/Spr_car/Spr_car.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
