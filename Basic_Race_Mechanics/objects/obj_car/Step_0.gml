@@ -1,3 +1,4 @@
+
 if(keyboard_check(ord("A")))
 {
 	phy_rotation -= 5
