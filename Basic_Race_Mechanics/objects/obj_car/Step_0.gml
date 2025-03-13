@@ -1,12 +1,13 @@
 
 if(keyboard_check(ord("A")))
 {
-	phy_rotation -= 5
+    physics_apply_torque(-turn_force);
+    
 }
 
 if(keyboard_check(ord("D")))
 {
-	phy_rotation += 5
+    physics_apply_torque(turn_force);
 }
 
 if (keyboard_check(ord("W")))
