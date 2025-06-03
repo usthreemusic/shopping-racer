@@ -352,8 +352,8 @@
   "maintainGms1Font":false,
   "name":"fTimer",
   "parent":{
-    "name":"Basic_Race_Mechanics",
-    "path":"Basic_Race_Mechanics.yyp",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[
@@ -367,10 +367,7 @@
   "sdfSpread":8,
   "size":48.0,
   "styleName":"Roman",
-  "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }

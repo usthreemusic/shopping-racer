@@ -1,4 +1,5 @@
 
+
 if(keyboard_check(ord("A")))
 {
     physics_apply_torque(-turn_force);

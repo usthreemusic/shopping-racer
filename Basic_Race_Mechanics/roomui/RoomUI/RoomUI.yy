@@ -1,0 +1,23 @@
+{
+  "$GMRoomUI":"",
+  "%Name":"RoomUI",
+  "children":[
+    {"$GMRUILayer":"v1","%Name":"HUD_layer","alignItems":1,"children":[
+        {"$GMRFlexPanel":"","%Name":"checklist_UI","alignItems":2,"alignSelf":1,"children":[
+            {"$GMRFlexPanel":"","%Name":"checklist_panel","alignItems":4,"alignSelf":1,"children":[
+                {"$GMRSpriteGraphic":"v1","%Name":"graphic_79159EF2","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_79159EF2","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_itemframe","path":"sprites/spr_itemframe/spr_itemframe.yy",},"x":0.0,"y":0.0,},
+              ],"flexDirection":2,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"checklist_panel","nodeColour":4294086984,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+          ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"checklist_UI","nodeColour":4282970819,"paddingBottom":{"unit":1,"value":5.0,},"paddingLeft":{"unit":1,"value":5.0,},"paddingRight":{"unit":1,"value":5.0,},"paddingTop":{"unit":1,"value":5.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":300.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":0,"name":"HUD_layer","nodeColour":4284500210,"paddingBottom":{"unit":1,"value":10.0,},"paddingLeft":{"unit":1,"value":10.0,},"paddingRight":{"unit":1,"value":10.0,},"paddingTop":{"unit":1,"value":10.0,},"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+  ],
+  "locked":false,
+  "name":"RoomUI",
+  "parent":{
+    "name":"Basic_Race_Mechanics",
+    "path":"Basic_Race_Mechanics.yyp",
+  },
+  "resourceType":"GMRoomUI",
+  "resourceVersion":"2.0",
+  "viewspaceChildren":[],
+  "visible":true,
+}
