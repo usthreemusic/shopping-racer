@@ -1,15 +1,23 @@
 {
   "$GMObject":"",
   "%Name":"obj_itemframe",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_itemframe",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_itemframe_parent","path":"objects/obj_itemframe_parent/obj_itemframe_parent.yy",},"propertyId":{"name":"item_name","path":"objects/obj_itemframe_parent/obj_itemframe_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Milk",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_itemframe_parent","path":"objects/obj_itemframe_parent/obj_itemframe_parent.yy",},"propertyId":{"name":"spr_id","path":"objects/obj_itemframe_parent/obj_itemframe_parent.yy",},"resource":{"name":"spr_milk","path":"sprites/spr_milk/spr_milk.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_milk",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_itemframe_parent",
+    "path":"objects/obj_itemframe_parent/obj_itemframe_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_itemframe",
-    "path":"sprites/spr_itemframe/spr_itemframe.yy",
+    "name":"spr_slot",
+    "path":"sprites/spr_slot/spr_slot.yy",
   },
   "spriteMaskId":null,
   "visible":true,
