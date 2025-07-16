@@ -19,7 +19,7 @@ if (keyboard_check(ord("W")))// accelerate in forwards dir
 	move_y = phy_speed_y;
 	dir_facing = phy_rotation;
 	move_angle = point_direction(x, y, move_x, move_y)
-	var diff_angle = angle_difference(move_angle, dir_facing);
+	var diff_angle = angle_difference(dir_facing, move_angle);
 	var turn_angle = abs(diff_angle);
 	
 	if move_speed < move_speed_max // apply upper limit to speed of movement (accel will stop once it is reached)
