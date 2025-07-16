@@ -52,6 +52,7 @@
     {"id":{"name":"obj_itemframe","path":"objects/obj_itemframe/obj_itemframe.yy",},},
     {"id":{"name":"obj_milk","path":"objects/obj_milk/obj_milk.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
+    {"id":{"name":"obj_tyre_trail","path":"objects/obj_tyre_trail/obj_tyre_trail.yy",},},
     {"id":{"name":"UI_manager","path":"objects/UI_manager/UI_manager.yy",},},
     {"id":{"name":"rm_lvl_1","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
