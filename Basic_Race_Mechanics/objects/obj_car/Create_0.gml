@@ -24,6 +24,7 @@ velocity = 0;
 //turning
 turn_force = 1100;
 dir_facing = 0;
+drift_velo = 5;
 drift_angle = 20;
 drift_check = false;
 
