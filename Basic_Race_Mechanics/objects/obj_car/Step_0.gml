@@ -23,7 +23,7 @@ if (keyboard_check(ord("W")))// accelerate in forwards dir
 	}
 }
 //Drift trail mechanics
-if (move_speed > 5)
+if (move_speed > 4)
 {//get direction of movement in x and y direction
 	move_x = phy_speed_x;
 	move_y = phy_speed_y;
@@ -31,7 +31,7 @@ if (move_speed > 5)
 	move_angle = point_direction(x, y, move_x, move_y)
 	var diff_angle = angle_difference(dir_facing, move_angle);
 	var turn_angle = abs(diff_angle);
-	if turn_angle > drift_angle and keyboard_check(vk_shift)
+	if turn_angle > drift_angle and keyboard_check(vk_shift) //handbrake function which also triggers tyre trails
 	{
 		drift_check = true;
 		phy_linear_damping = 1;
